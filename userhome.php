@@ -23,16 +23,17 @@
   </span>
 </button>
 </div>
-<div class="container-account">
-<div class="dropdown">
-<img class="a" src="icons/account.png" width="40" height="30" alt="notification-logo">
-      <button class="btn btn-account dropdown-toggle" type="button" id="accountDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-        My Account
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="accountDropdown">
-        <li><a class="dropdown-item" href="#">Profile</a></li>
-        <li><a class="dropdown-item" href="#">Settings</a></li>
-        <li><a class="dropdown-item" href="#">Logout</a></li>
+
+<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img class="a" src="icons/account.png" width="40" height="30" alt="account-logo"> My Account
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="accountDropdown">
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </li>
       </ul>
     </div>
   </div>
@@ -41,7 +42,6 @@
     <h1 class="display-1">Start your design now!</h1>
     <h1 class="display-6">Select one of our blanks, add your designs, and export.</h1>
 </div>
-
 
 </div>
 </nav>

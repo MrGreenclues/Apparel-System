@@ -70,7 +70,11 @@
     height: 500px;
     width: 350px;
     border-radius: 20px;
+}
+.nav-link{
+  margin-top:-25px;
+  margin-right: 20px;
 
-
+}
 
 </style>
